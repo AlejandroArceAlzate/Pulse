@@ -119,6 +119,7 @@ nav ul li a
 	background: white;
 	border-bottom: 3px solid #22BCE0;
 	margin-bottom: 3em;
+	padding-bottom: 0.5em;
 	min-height: 128px;
 	position: relative;
 }
