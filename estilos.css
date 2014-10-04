@@ -311,6 +311,7 @@ aside
 {
 	padding: 1em;
 	text-align: right;
+	display: none;
 }
 
 .formulario input
