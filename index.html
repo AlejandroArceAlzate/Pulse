@@ -8,7 +8,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="normalize.css"/>
         <link rel="stylesheet" href="estilos.css"/>
-        <script type="prefixfree.js"></script>
+        <script src="prefixfree.js"></script>
     </head>
     <body>
     	<header>
@@ -30,10 +30,15 @@
     			<li><a href="#">CSS3</a></li>
     			<li><a href="#">Django</a></li>
     			<li id="publicar_nav">
-    				<a href="#" class="icon-lapiz">Publicar</a>
+    				<a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
     			</li>
     		</ul>
     	</nav>
+        <form action="" id="formulario" class="formulario">
+            <input type="text" id="titulo" placeholder="Titulo" required />
+            <input type="url" id="url" placeholder="Url" required />
+            <input type="submit" value="Agregar"/>
+        </form>
         <aside>
             <video width="320" height="240" autoplay controls>
                 <source src="lecturas.mp4" type="video/mp4">
@@ -208,5 +213,7 @@
     			mejorando.la 2014
     		</p>
     	</footer>
+         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+         <script src="formulario.js"></script>
     </body>
 </html>
