@@ -218,7 +218,10 @@
          <script>
             $(function()
             {
-                
+                $("#publicar_nav a").on("click",function(a){
+                    a.preventDefault();
+                    $(this).toggleClass("disabled");
+                });   
             });
          </script>
     </body>

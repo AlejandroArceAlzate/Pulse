@@ -1,3 +1,6 @@
+@import url("'fonts.googleapis.com/css?family=Open+Sans:400italic,700,400,600'");
+
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('fonts/icomoon.eot?j86kr8');
@@ -127,7 +130,7 @@ header #logo img
 }
 header #logo img:hover
 {
-	-webkit-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg) scale(0.5, 0.5);
 }
 nav
 {
