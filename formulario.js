@@ -44,10 +44,5 @@ function agregarPost(e)
 }
 
 //eventos
-
-$("nav").on("click", function(){console.log("soy un nav y me hicieron click");})
-$("nav ul").on("click", function(){console.log("soy un nav ul y me hicieron click");})
-
-
 $button.click(mostrarFormulario);
 $form.on("submit", agregarPost);
